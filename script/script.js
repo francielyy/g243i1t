@@ -1,3 +1,6 @@
 function aperte(){
-    alert("O que faço com osplanos dos próximos anos?")
+    while(true){
+    alert("Virus detectado!");
+}
+
 }
