@@ -1,0 +1,77 @@
+.btn{
+    background-color: rgb(199, 248, 232);
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    width: 40%;
+    margin-top: 5%;
+   
+   
+}
+.conteudo {
+    text-align: center;
+    width: 80%;
+}
+body{
+    background-color: rgb(234, 198, 250);
+}
+.barra {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    background-color: pink;
+}
+
+.desktop {
+    display: none;
+}
+
+.tablet {
+    display: none;
+}
+.mobile {
+    font-size: 50px;
+    color: bisque;
+}
+
+@media (min-width:800px) {
+   .barra {
+    background-color:rgb(199, 248, 232);
+    height: 80px;
+   }
+   .mobile {
+    display: none;
+   }
+   .tablet {
+    display: inline;
+     font-size: 55px;
+     color: pink;
+   }
+   .btn{
+    margin-top: 0;
+    width: 70px;
+    font-size: 16px;
+   }
+   .conteudo {
+    text-align: right;
+   }
+}
+
+@media (min-width: 1228px) {
+    .barra {
+       background-color: rgb(200, 154, 243);
+       height: 120px;
+    }
+    .tablet {
+        display: none;
+    }
+    .desktop {
+        display: inline;
+        font-size: 70px;
+        color: rgb(149, 218, 218);
+    }
+    .conteudo{
+        text-align: left;
+        
+    }
+}
