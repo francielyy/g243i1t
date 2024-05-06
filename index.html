@@ -2,42 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="./script/script.js"></script>
-    <link rel="stylesheet" href="./estilo/basico.css">
+    <title>Estrutura</title>
+    <link rel="stylesheet" href="estrutura.js">
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-
-
-
-    <header class="barra">
-  <span class="mobile"> Mobile </span>
-  <span class="tablet"> Tablet </span>
-  <span class="desktop"> Desktop </span>
-
-    </header>
-    
-<section class="conteudo">
-    <div class="botoes">
-    <button class="btn" id="btn1" onclick="abrir_aba(1);">Aba 1</button>
-    <button class="btn" id="btn2" onclick="abrir_aba(2);">Aba 2</button>
-    <button class="btn" id="btn3" onclick="abrir_aba(3);">Aba 3</button>
-    <button class="btn" id="btn4" onclick="abrir_aba(4);">Aba 4</button>
-    <button class="btn" id="btn5" onclick="abrir_aba(5);">Aba 5</button>
- </div>
- <div class="abas">
-    <div class="aba" id="aba1">Estou na Aba 1</div>
-    <div class="aba" id="aba2">
-        De: <input type="number" id="inicio">
-        Ate: <input type="number" id="fim"> <br>
-        <div id="saida"> <span id="valor"></span></div> <br> <br>
-        <button onclick="contar()">Contar</button>
+    <div class="info">
+        <input type="text" id="valor">
+        <div>
+            <button id="btnInserir"> Adicionar na fila</button> <br>
+            <button id="btnRemover">Remover da lista</button>
+        </div>
+        <div>
+            Fila: <span id="saida_fila"></span><br>
+            Último removido: <span id="removido_fila"></span><br>
+             
+         </div>
     </div>
-    <div class="aba" id="aba3">Estou na Aba 3</div>
-    <div class="aba" id="aba4">Estou na Aba 4</div>
-    <div class="aba" id="aba5">Estou na Aba 5</div>
-    </div>
-</section>
+   
+   
+    <script src="estrutura.js"></script>
 </body>
 </html>

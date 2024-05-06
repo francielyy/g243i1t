@@ -1,0 +1,9 @@
+.info{
+    width: 80%;
+    background-color: rgb(219, 238, 255);
+    margin: 10px;
+    padding: 20px;
+}
+body {
+    background-color: rgb(154, 192, 226);
+}
